@@ -3,12 +3,18 @@
 
 Competitive SMAC is the extension of [SMAC](https://github.com/oxwhirl/smac) which allows to control 2 teams of the SC2 map.
 
-It has been implemented for our paper entitled [Value-based CTDE Methods in Symmetric Two-team Markov Game: from Cooperation to Team Competition](TDB).
+It has been implemented for our paper entitled [Value-based CTDE Methods in Symmetric Two-team Markov Game: from Cooperation to Team Competition](https://arxiv.org/abs/2211.11886).
 
 We also developed the corresponding [competitive pymarl](https://github.com/paleroy/competPymarl) framework to train both teams.
 
 # Code Example
 Example on how using the code is provided [here](smac/examples/random_agents_compet.py).
+
+# Heuristic
+The heuristic is implemented 
+
+# Competitive maps
+To create competitive maps from the existing cooperative ones, you need to adapt the triggers in the SC2 editor.
 
 # Installation
 
@@ -35,9 +41,6 @@ The installation procedure is the same as the one of [SMAC](https://github.com/o
 Note that for the paper experiments, we used the version of  4.6.2 StarCraft II for Linux.
 
 ### List the maps
-
-We 
-
 To see the list of SMAC maps, together with the number of ally and enemy units and episode limit, run:
 
 ```shell
@@ -46,7 +49,7 @@ $ python -m smac.bin.map_list
 
 # Citing competitive SMAC 
 
-If you use QVMix implementation in your own work, please cite our paper: [Value-based CTDE Methods in Symmetric Two-team Markov Game: from Cooperation to Team Competition](TDB).
+If you use QVMix implementation in your own work, please cite our paper: [Value-based CTDE Methods in Symmetric Two-team Markov Game: from Cooperation to Team Competition](https://arxiv.org/abs/2211.11886).
 
 ```tex
 @inproceedings{leroy2022twoteam,
