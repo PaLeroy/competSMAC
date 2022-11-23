@@ -49,7 +49,7 @@ $ python -m smac.bin.map_list
 
 # Citing competitive SMAC 
 
-If you use QVMix implementation in your own work, please cite our paper: [Value-based CTDE Methods in Symmetric Two-team Markov Game: from Cooperation to Team Competition](https://arxiv.org/abs/2211.11886).
+If you use the competitive SMAC implementation in your own work, please cite our paper: [Value-based CTDE Methods in Symmetric Two-team Markov Game: from Cooperation to Team Competition](https://arxiv.org/abs/2211.11886).
 
 ```tex
 @inproceedings{leroy2022twoteam,
